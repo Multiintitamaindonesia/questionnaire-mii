@@ -1,5 +1,3 @@
-# questionnaire-mii
-Kuesioner Evaluasi Workshop MII
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -57,7 +55,7 @@ Kuesioner Evaluasi Workshop MII
 </head>
 <body>
   <div class="container">
-    <h1>Evaluasi Workshop Multi Intitama Indonesia </h1>
+    <h1>Evaluasi Workshop </BR> Multi Intitama Indonesia </h1>
     <form onsubmit="sendWA(event)">
       <label>Judul Training:</label>
       <input type="text" id="judul" required>
@@ -69,7 +67,7 @@ Kuesioner Evaluasi Workshop MII
       <input type="text" id="perusahaan">
 
       <div class="section">
-        <h2>A. Materi Pelatihan</h2>
+        <h2>A. Materi Workshop</h2>
         <label>1. Seberapa relevan materi dengan kebutuhan Anda?</label>
         <div class="options">
           <label><input type="radio" name="q1" value="Sangat Relevan"> Sangat Relevan</label>
@@ -88,12 +86,14 @@ Kuesioner Evaluasi Workshop MII
           <label><input type="radio" name="q2" value="Sangat Sulit"> Sangat Sulit</label>
         </div>
 
-        <label>3. Topik mana yang paling menarik?</label>
+        <label>3. Topik Workshop mana yang paling menarik?</label>
         <div class="options">
-          <label><input type="checkbox" name="q3" value="Prosedur Ekspor-Impor"> Prosedur Ekspor-Impor</label>
-          <label><input type="checkbox" name="q3" value="Dokumen dan Regulasi"> Dokumen dan Regulasi</label>
-          <label><input type="checkbox" name="q3" value="Logistik dan Pengiriman"> Logistik dan Pengiriman</label>
-          <label><input type="checkbox" name="q3" value="Strategi Pemasaran Internasional"> Strategi Pemasaran Internasional</label>
+          <label><input type="checkbox" name="q3" value="Ekspor-Impor"> Ekspor-Impor</label>
+          <label><input type="checkbox" name="q3" value="Suber Daya Manusia"> Sumber Daya Manusia</label>
+          <label><input type="checkbox" name="q3" value="Manajemen Logistik"> Manajemen Logistik</label>
+          <label><input type="checkbox" name="q3" value="Manajemen Teknik">  Manajemen Teknik</label>
+          <label><input type="checkbox" name="q3" value="Manajemen Keuangan">  Manajemen Keuangan</label>
+          <label><input type="checkbox" name="q3" value="Manajemen Proyek">  Manajemen Proyek</label>
           <label>Lainnya: <input type="text" id="q3_lainnya"></label>
         </div>
       </div>
@@ -116,12 +116,13 @@ Kuesioner Evaluasi Workshop MII
           <label><input type="radio" name="q5" value="Biasa Saja"> Biasa Saja</label>
           <label><input type="radio" name="q5" value="Kurang Interaktif"> Kurang Interaktif</label>
           <label><input type="radio" name="q5" value="Membosankan"> Membosankan</label>
+          <label> Mohon Saran dan kritik untuk Trainer: <input type="text" id="q3_lainnya"></label>
         </div>
       </div>
 
       <div class="section">
         <h2>C. Fasilitas & Pelaksanaan</h2>
-        <label>6. Fasilitas pelatihan?</label>
+        <label>6. Fasilitas Workshop?</label>
         <div class="options">
           <label><input type="radio" name="q6" value="Sangat Memadai"> Sangat Memadai</label>
           <label><input type="radio" name="q6" value="Memadai"> Memadai</label>
@@ -130,7 +131,7 @@ Kuesioner Evaluasi Workshop MII
           <label><input type="radio" name="q6" value="Tidak Memadai"> Tidak Memadai</label>
         </div>
 
-        <label>7. Pelaksanaan keseluruhan?</label>
+        <label>7. Pelaksanaan keseluruhan Workshop?</label>
         <div class="options">
           <label><input type="radio" name="q7" value="Sangat Baik"> Sangat Baik</label>
           <label><input type="radio" name="q7" value="Baik"> Baik</label>
@@ -142,7 +143,7 @@ Kuesioner Evaluasi Workshop MII
 
       <div class="section">
         <h2>D. Manfaat dan Saran</h2>
-        <label>8. Seberapa besar manfaat pelatihan ini?</label>
+        <label>8. Seberapa besar manfaat Workshop ini?</label>
         <div class="options">
           <label><input type="radio" name="q8" value="Sangat Besar"> Sangat Besar</label>
           <label><input type="radio" name="q8" value="Besar"> Besar</label>
@@ -151,13 +152,13 @@ Kuesioner Evaluasi Workshop MII
           <label><input type="radio" name="q8" value="Tidak Ada"> Tidak Ada</label>
         </div>
 
-        <label>9. Berminat ikut pelatihan lanjutan?</label>
+        <label>9. Berminat ikut pelatihan lainnya?</label>
         <div class="options">
           <label><input type="radio" name="q9" value="Ya"> Ya</label>
           <label><input type="radio" name="q9" value="Tidak"> Tidak</label>
         </div>
 
-        <label>10. Saran / Masukan:</label>
+        <label>10. Saran / Masukan untuk kami Multi Intitama Indonesia:</label>
         <textarea id="saran" rows="4"></textarea>
       </div>
 
